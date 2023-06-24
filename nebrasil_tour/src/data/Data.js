@@ -141,6 +141,11 @@ const panoramasData = [
     url: "../images/comp/ne-gm-6.jpg",
     infospots: [
       {
+        position: [4633.69, 761.16, 1697.23],
+        title: "Auditório",
+        index: 9,
+      },
+      {
         position: [1549.95, -62.97, -4750.77],
         title: "Sala de Estar dos Guardas-Marinha",
         index: 3,
@@ -154,6 +159,82 @@ const panoramasData = [
         position: [1549.95, -62.97, -4750.77],
         title: "Sala de Estar dos Guardas-Marinha",
         index: 3,
+      },
+    ]
+  },
+  //AUDITÓRIO
+  {                                                             //9
+    url: "../images/comp/ne-aud-1.jpg",
+    infospots: [
+      {
+        position: [260.53, -64.62, 4983.81],
+        title: "Auditório",
+        index: 10,
+      },
+      {
+        position: [-1416.55, -4701.80, -917.53],
+        title: "Sala de Estar dos Guardas-Marinha",
+        index: 7,
+      },
+    ]
+  },
+  {                                                             //10
+    url: "../images/comp/ne-aud-2.jpg",
+    infospots: [
+      {
+        position: [260.53, -64.62, 4983.81],
+        title: "Auditório",
+        index: 9,
+      },
+      {
+        position: [-4956.07, -354.98, 538.02],
+        title: "Auditório",
+        index: 11,
+      },
+      {
+        position: [-4465.07, -49.26, -2230.90],
+        title: "Auditório",
+        index: 12,
+      },
+    ]
+  },
+  {                                                             //11
+    url: "../images/comp/ne-aud-3.jpg",
+    infospots: [
+      {
+        position: [-3731.65, -131.20, -3317.81],
+        title: "Auditório",
+        index: 12,
+      },
+      {
+        position: [-4512.30, -215.20, -2123.86],
+        title: "Auditório",
+        index: 13,
+      },
+      {
+        position: [4795.25, 110.73, 1379.15],
+        title: "Auditório",
+        index: 10,
+      },
+    ]
+  },
+  {                                                             //12
+    url: "../images/comp/ne-aud-4.jpg",
+    infospots: [
+      {
+        position: [-4565.65, -87.60, 2029.49],
+        title: "Auditório",
+        index: 10,
+      },
+    ]
+  },
+  {                                                             //12
+    url: "../images/comp/ne-aud-5.jpg",
+    infospots: [
+      {
+        position: [4993.64, 85.41, -57.40],
+        title: "Saída do Auditório",
+        index: 9,
       },
     ]
   }

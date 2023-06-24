@@ -19,7 +19,7 @@ const Pano = () => {
       viewer.tweenControlCenter( StartPosition, 0 );
     }); // ACRESCENTAR LOOKATPOSITION ON DATA.JS
   
-    data.infospots.forEach((infospotData, index) => {
+    data.infospots.forEach((infospotData) => {
       const position = infospotData.position;
       const infospot = new PANOLENS.Infospot(500, PANOLENS.DataImage.Arrow);
       infospot.position.set(position[0], position[1], position[2]);
@@ -27,7 +27,8 @@ const Pano = () => {
       infospot.panoramaIndex = infospotData.index; // Adiciona a informação do índice do infospot no panorama
       panorama.add(infospot);
       infospot.addEventListener('click', function() {
-        viewer.setPanorama(panoramas[infospot.panoramaIndex]);
+        //VOLTAR AO INDICE NORMAL DEPOIS --> TIRAR O '-8'!!!!!!!
+        viewer.setPanorama(panoramas[infospot.panoramaIndex]); 
       }
       );  
     });
