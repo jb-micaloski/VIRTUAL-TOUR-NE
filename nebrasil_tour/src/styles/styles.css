@@ -1,16 +1,9 @@
-html, body, main, section.full {
+html, body, main, .App {
   width: 100%;
   height: 100%;
 }
 
-.App {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-body {
+body{
   margin: 0;
   font-family: 'Oswald', 'Roboto', sans-serif;
   overflow: hidden;
@@ -47,4 +40,14 @@ table {
   opacity: 1;
 }
 
+header {
+  filter: brightness(0.5);
+}
 
+.panolens-infospot {
+  background-color: #ffffff2c;
+  padding:2px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 800;
+}

@@ -4,13 +4,14 @@ import React from "react";
 import panoramasData from "../data/Data";
 
 const Tour = () => {
-
+  
   const viewer = new PANOLENS.Viewer({
-    container: document.querySelector("#container"),
+    container: document.querySelector("#tour"),
     output: 'console',
     cameraFov: '105',
     speedLimit: '0.5',
   });
+
 
   const StartPosition = new THREE.Vector3(-4640.72, -67.58, 1836.12)
 
@@ -23,7 +24,7 @@ const Tour = () => {
 
     data.infospots.forEach((infospotData) => {
       const position = infospotData.position;
-      const infospot = new PANOLENS.Infospot(550,'../images/seta.png');
+      const infospot = new PANOLENS.Infospot(550,infospotData.icon);
       infospot.position.set(position[0], position[1], position[2]);
       infospot.addHoverText(infospotData.title);
       infospot.panoramaIndex = infospotData.index; // Adiciona a informação do índice do infospot no panorama
@@ -44,7 +45,7 @@ const Tour = () => {
 
   return (
     <>
-    <div id="container"/>
+    <div id="tour"/>
     </>
   );
 };

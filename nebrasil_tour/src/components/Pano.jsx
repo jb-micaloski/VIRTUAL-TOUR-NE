@@ -2,11 +2,18 @@ import * as PANOLENS from "panolens";
 import * as THREE from "three";
 import React from "react";
 import { Button } from "@mui/material";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Pano = () => {
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate("/tour");
+    window.location.reload();
+  };
+
   const viewer = new PANOLENS.Viewer({
-    container: document.querySelector("#container"),
+    container: document.querySelector("#home.content"),
     output: "console",
     cameraFov: "105",
     speedLimit: "0.5",
@@ -28,35 +35,44 @@ const Pano = () => {
     <>
       <main>
         <section className="content">
-          <section id="container" className="content">
-              <section className="title">
-                <table>
-                <thead>
-                    <tr>
-                        <td>
-                          <img src="../images/brasaoNE.png" height="80vh" alt="NE Brasil"/>
-                        </td>
-                        <td>
-                          <header>NAVIO-ESCOLA<br />BRASIL</header>
-                        </td>
-                        <td>
-                          <img src="../images/brasaoMB.png" height="80vh" alt="Marinha do Brasil"/>
-                        </td>
-                      </tr>
-                  </thead>
-                  <tbody>
-                      <tr>
-                        <td colSpan="3">
-                          <Link to='/tour'>
-                            <Button variant='contained'>
-                              INICIAR
-                            </Button>
-                          </Link>
-                        </td>
-                      </tr>
-                  </tbody>
-                </table>
-              </section>  
+          <section id="home" className="content"></section>
+          <section className="title">
+            <table>
+              <thead>
+                <tr>
+                  <td>
+                    <img
+                      src="../images/brasaoNE.png"
+                      height="80vh"
+                      alt="NE Brasil"
+                    />
+                  </td>
+                  <td>
+                    <header>
+                      NAVIO-ESCOLA
+                      <br />
+                      BRASIL
+                    </header>
+                  </td>
+                  <td>
+                    <img
+                      src="../images/brasaoMB.png"
+                      height="80vh"
+                      alt="Marinha do Brasil"
+                    />
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colSpan="3">
+                    <Button variant="contained" onClick={handleButtonClick}>
+                      INICIAR VISITA
+                    </Button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </section>
         </section>
       </main>
