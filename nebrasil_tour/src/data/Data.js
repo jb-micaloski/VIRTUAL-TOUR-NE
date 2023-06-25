@@ -495,7 +495,7 @@ const panoramasData = [
       {
         position: [4796.01, 1226.78, -648.52],
         title: "Câmara do Comandante",
-        index: 26,
+        index: 45,
       },
       {
         position: [4153.86, 122.14, -2762.63],
