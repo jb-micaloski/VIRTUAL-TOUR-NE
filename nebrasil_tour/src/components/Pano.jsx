@@ -1,7 +1,8 @@
 import * as PANOLENS from "panolens";
 import * as THREE from "three";
 import React from "react";
-import {Button} from "@mui/material";
+import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const Pano = () => {
   const viewer = new PANOLENS.Viewer({
@@ -30,24 +31,30 @@ const Pano = () => {
           <section id="container" className="content">
               <section className="title">
                 <table>
-                <tr>
-                    <td>
-                      <img src="../images/brasaoNE.png" height="150px" alt="NE Brasil"/>
-                    </td>
-                    <td>
-                      <header>NAVIO-ESCOLA<br />BRASIL</header>
-                    </td>
-                    <td>
-                      <img src="../images/brasaoMB.png" height="150px" alt="Marinha do Brasil"/>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colspan="3">
-                      <Button variant='contained'>
-                        Enter
-                      </Button>
-                    </td>
-                  </tr>
+                <thead>
+                    <tr>
+                        <td>
+                          <img src="../images/brasaoNE.png" height="80vh" alt="NE Brasil"/>
+                        </td>
+                        <td>
+                          <header>NAVIO-ESCOLA<br />BRASIL</header>
+                        </td>
+                        <td>
+                          <img src="../images/brasaoMB.png" height="80vh" alt="Marinha do Brasil"/>
+                        </td>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                        <td colSpan="3">
+                          <Link to='/tour'>
+                            <Button variant='contained'>
+                              Enter
+                            </Button>
+                          </Link>
+                        </td>
+                      </tr>
+                  </tbody>
                 </table>
               </section>  
           </section>
