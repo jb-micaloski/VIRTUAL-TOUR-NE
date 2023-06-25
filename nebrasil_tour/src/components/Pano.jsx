@@ -27,7 +27,7 @@ const Pano = () => {
       infospot.panoramaIndex = infospotData.index; // Adiciona a informação do índice do infospot no panorama
       panorama.add(infospot);
       infospot.addEventListener('click', function() {
-        //VOLTAR AO INDICE NORMAL DEPOIS --> TIRAR O '-8'!!!!!!!
+        //VOLTAR AO INDICE NORMAL DEPOIS --> TIRAR O '-'x''!!!!!!!
         viewer.setPanorama(panoramas[infospot.panoramaIndex]); 
       }
       );  
