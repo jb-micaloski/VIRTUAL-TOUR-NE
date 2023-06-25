@@ -49,7 +49,7 @@ const Pano = () => {
                         <td colSpan="3">
                           <Link to='/tour'>
                             <Button variant='contained'>
-                              Enter
+                              INICIAR
                             </Button>
                           </Link>
                         </td>
