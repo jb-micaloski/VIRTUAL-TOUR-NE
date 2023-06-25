@@ -1,47 +1,59 @@
 import * as PANOLENS from "panolens";
 import * as THREE from "three";
 import React from "react";
-import panoramasData from "../data/Data";
+import {Button} from "@mui/material";
 
 const Pano = () => {
   const viewer = new PANOLENS.Viewer({
     container: document.querySelector("#container"),
-    output: 'console',
-    cameraFov: '105',
-    speedLimit: '0.5',
+    output: "console",
+    cameraFov: "105",
+    speedLimit: "0.5",
+    autoRotate: true,
+    autoRotateSpeed: 0.25,
+    autoRotateActivationDuration: 1,
+    controlBar: false,
+    horizontalView: true,
   });
 
-  const StartPosition = new THREE.Vector3(-4640.72, -67.58, 1836.12)
-
-  const panoramas = panoramasData.map(data => {
-    const panorama = new PANOLENS.ImagePanorama(data.url);
-    panorama.addEventListener( 'enter-fade-start', function(){
-      viewer.tweenControlCenter( StartPosition, 0 );
-    }); // ACRESCENTAR LOOKATPOSITION ON DATA.JS
-  
-    data.infospots.forEach((infospotData) => {
-      const position = infospotData.position;
-      const infospot = new PANOLENS.Infospot(500, PANOLENS.DataImage.Arrow);
-      infospot.position.set(position[0], position[1], position[2]);
-      infospot.addHoverText(infospotData.title);
-      infospot.panoramaIndex = infospotData.index; // Adiciona a informação do índice do infospot no panorama
-      panorama.add(infospot);
-      infospot.addEventListener('click', function() {
-        //VOLTAR AO INDICE NORMAL DEPOIS --> TIRAR O '-'x''!!!!!!!
-        viewer.setPanorama(panoramas[infospot.panoramaIndex]); 
-      }
-      );  
-    });
-  
-    return panorama;
+  const StartPosition = new THREE.Vector3(-4711.94, 93.13, 1647.79);
+  const panorama = new PANOLENS.ImagePanorama("../images/comp/ne-beg-1.jpg");
+  panorama.addEventListener("enter-fade-start", function () {
+    viewer.tweenControlCenter(StartPosition, 0);
   });
-
-  panoramas.forEach(panorama => {
-    viewer.add(panorama);
-  });
+  viewer.add(panorama);
 
   return (
-    <div id="container"/>
+    <>
+      <main>
+        <section className="content">
+          <section id="container" className="content">
+              <section className="title">
+                <table>
+                <tr>
+                    <td>
+                      <img src="../images/brasaoNE.png" height="150px" alt="NE Brasil"/>
+                    </td>
+                    <td>
+                      <header>NAVIO-ESCOLA<br />BRASIL</header>
+                    </td>
+                    <td>
+                      <img src="../images/brasaoMB.png" height="150px" alt="Marinha do Brasil"/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3">
+                      <Button variant='contained'>
+                        Enter
+                      </Button>
+                    </td>
+                  </tr>
+                </table>
+              </section>  
+          </section>
+        </section>
+      </main>
+    </>
   );
 };
 

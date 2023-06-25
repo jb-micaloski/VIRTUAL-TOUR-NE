@@ -8,11 +8,6 @@ const panoramasData = [
         title: "INICIAR TOUR",
         index: 1,
       },
-      {
-        position: [-2200.10, -4478.39, -276.43],
-        title: "PASSADIÇO",
-        index: 29,
-      },
     ]
   },
   //CONVOO

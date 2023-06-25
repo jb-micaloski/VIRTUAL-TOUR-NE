@@ -1,3 +1,4 @@
+import Tour from './components/Tour';
 import Pano from './components/Pano';
 import './styles/styles.css';
 
