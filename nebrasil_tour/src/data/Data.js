@@ -275,12 +275,12 @@ const panoramasData = [
       {
         position: [4981.80, 352.77, 82.72],
         title: "Centro Cirúrgico",
-        index: 14,
+        index: 38,
       },
       {
         position: [4920.59, 399.49, -747.23],
         title: "Atendimento Odontol[ogico",
-        index: 14,
+        index: 37,
       },
     ]
   },
@@ -295,7 +295,7 @@ const panoramasData = [
       {
         position: [-4946.49, 117.46, 658.11],
         title: "Camarote",
-        index: 16,
+        index: 31,
       },
       {
         position: [2754.15, -133.36, 4158.84],
@@ -311,6 +311,11 @@ const panoramasData = [
         position: [-4949.47, 146.69, 631.97],
         title: "",
         index: 18,
+      },
+      {
+        position: [4952.01, 321.04, -572.18],
+        title: "",
+        index: 16,
       },
     ]
   },
@@ -370,7 +375,7 @@ const panoramasData = [
       {
         position: [-4741.02, 1567.42, 114.86],
         title: "Praça D'Armas",
-        index: 21,
+        index: 32,
       },
       {
         position: [-271.11, 456.09, -4962.83],
@@ -405,7 +410,7 @@ const panoramasData = [
       {
         position: [2469.79, -104.45, -4340.92],
         title: "SSTT",
-        index: 23,
+        index: 40,
       },
       {
         position: [-4027.21, -2350.30, 1796.77],
@@ -425,7 +430,7 @@ const panoramasData = [
       {
         position: [4990.00, 233.98, 15.36],
         title: "SSTT",
-        index: 23,
+        index: 40,
       },
       {
         position: [4774.68, -384.62, -1414.38],
@@ -435,12 +440,12 @@ const panoramasData = [
       {
         position: [-2900.78, 1105.11, -3914.33],
         title: "Sala de Aula",
-        index: 24,
+        index: 44,
       },
       {
         position: [-3299.23, 1758.85, 3305.17],
         title: "Sala de Aula",
-        index: 24,
+        index: 44,
       },
     ]
   },
@@ -455,12 +460,12 @@ const panoramasData = [
       {
         position: [3133.23, -104.61, 3880.18],
         title: "Sala de Instrução a Navegação",
-        index: 25,
+        index: 47,
       },
       {
         position: [1291.26, -93.36, -4819.50],
         title: "Câmara do Comandante",
-        index: 25,
+        index: 45,
       },
       {
         position: [-2157.70, -4505.49, -53.39],
@@ -480,12 +485,12 @@ const panoramasData = [
       {
         position: [-326.15, 374.77, 4968.18],
         title: "Sala de Instrução a Navegação",
-        index: 26,
+        index: 47,
       },
       {
         position: [-1575.59, 1707.22, -4417.82],
         title: "Sala de Instrução a Navegação",
-        index: 26,
+        index: 49,
       },
       {
         position: [4796.01, 1226.78, -648.52],
@@ -499,6 +504,7 @@ const panoramasData = [
       },
     ]
   },
+  //PASSADIÇO
   {                                                             //27
     url: "../images/comp/ne-pass-1.jpg",
     infospots: [
@@ -581,6 +587,314 @@ const panoramasData = [
         position: [4844.24, -742.89, 969.83],
         title: "Voltar",
         index: 27,
+      },
+    ]
+  },
+  //CAMAROTE DE GM
+  {                                                             //31
+    url: "../images/comp/ne-cam-1.jpg",
+    infospots: [
+      {
+        position: [2754.15, -133.36, 4158.84],
+        title: "Voltar",
+        index: 16,
+      },
+    ]
+  },
+  //PRAÇA D'ARMAS DOS OFICIAIS
+  {                                                             //32
+    url: "../images/comp/ne-prd-1.jpg",
+    infospots: [
+      {
+        position: [-1074.72, -939.24, 4785.37],
+        title: "",
+        index: 33,
+      },
+      {
+        position: [-4800.62, 1201.51, -664.88],
+        title: "Voltar",
+        index: 21,
+      },
+    ]
+  },
+  {                                                             //33
+    url: "../images/comp/ne-prd-2.jpg",
+    infospots: [
+      {
+        position: [4106.43, -1088.96, 2619.70],
+        title: "",
+        index: 34, //sofa
+      },
+      {
+        position: [3245.89, 180.53, -3787.40],
+        title: "",
+        index: 35, //mesa
+      },
+      {
+        position: [1135.73, 503.04, -4835.48],
+        title: "",
+        index: 36, //bar
+      },
+      {
+        position: [-4949.95, 516.13, 381.26],
+        title: "Voltar",
+        index: 21,
+      },
+    ]
+  },
+  {                                                             //34
+    url: "../images/comp/ne-prd-3.jpg",
+    infospots: [
+      {
+        position: [-4981.08, 214.31, -200.30],
+        title: "",
+        index: 35, 
+      },
+      {
+        position: [-4438.51, -94.77, 2279.10],
+        title: "",
+        index: 36, 
+      },
+      {
+        position: [-2725.22, -433.13, 4159.76],
+        title: "",
+        index: 33, 
+      },
+      {
+        position: [-84.24, -83.47, 4992.31],
+        title: "Voltar",
+        index: 21,
+      },
+    ]
+  },
+  {                                                             //35
+    url: "../images/comp/ne-prd-5.jpg",
+    infospots: [
+      {
+        position: [4994.83, -60.33, -53.33],
+        title: "",
+        index: 34, 
+      },
+      {
+        position: [-279.84, -121.96, 4980.54],
+        title: "",
+        index: 36, 
+      },
+      {
+        position: [3715.94, -418.03, 3316.10],
+        title: "",
+        index: 33, 
+      },
+      {
+        position: [4483.16, -132.67, 2188.18],
+        title: "Voltar",
+        index: 21,
+      },
+    ]
+  },
+  {                                                             //36
+    url: "../images/comp/ne-prd-4.jpg",
+    infospots: [
+      {
+        position: [-4828.35, -1201.74, -453.50],
+        title: "",
+        index: 35, 
+      },
+      {
+        position: [-2205.84, -127.91, -4474.38],
+        title: "",
+        index: 34, 
+      },
+      {
+        position: [-691.36, -160.11, -4939.53],
+        title: "",
+        index: 33, 
+      },
+    ]
+  },
+  //ATENDIMENTO ODONTOLÓGICO
+  {                                                             //37
+    url: "../images/comp/ne-dent-1.jpg",
+    infospots: [
+      {
+        position: [1283.62, 909.06, -4735.61 ],
+        title: "Voltar",
+        index: 15, 
+      },
+    ]
+  },
+  //CENTRO CIRÚRGICO
+  {                                                             //38
+    url: "../images/comp/ne-cir-1.jpg",
+    infospots: [
+      {
+        position: [-4958.12, 435.92, -406.56],
+        title: "",
+        index: 39, 
+      },
+      {
+        position: [-3917.40, 684.28, -3017.31],
+        title: "Voltar",
+        index: 15, 
+      },
+    ]
+  },
+  {                                                             //39
+    url: "../images/comp/ne-cir-2.jpg",
+    infospots: [
+      {
+        position: [-4966.69, -235.60, 458.94],
+        title: "",
+        index: 38, 
+      },
+      {
+        position: [781.58, 386.74, 4916.23],
+        title: "Voltar",
+        index: 15, 
+      },
+    ]
+  },
+  //SSTT
+  {                                                             //40
+    url: "../images/comp/ne-sstt-1.jpg",
+    infospots: [
+      {
+        position: [-4918.32, 803.60, -302.72],
+        title: "",
+        index: 41, 
+      },
+      {
+        position: [-4636.82, 1613.13, 920.26],
+        title: "Cubículo",
+        index: 42, 
+      },
+      {
+        position: [4979.48, 106.93, 311.37],
+        title: "Voltar",
+        index: 24, 
+      },
+    ]
+  },
+  {                                                             //41
+    url: "../images/comp/ne-sstt-2.jpg",
+    infospots: [
+      {
+        position: [-3767.83, 2998.75, -1325.10],
+        title: "Cubículo",
+        index: 42, 
+      },
+      {
+        position: [2188.18, 1245.60, 4309.39],
+        title: "Voltar",
+        index: 24, 
+      },
+    ]
+  },
+  {                                                             //42
+    url: "../images/comp/ne-sstt-3.jpg",
+    infospots: [
+      {
+        position: [3460.88, 2306.46, 2763.14],
+        title: "",
+        index: 43, 
+      },
+      {
+        position: [-2460.76, 1223.26, -4172.30],
+        title: "Voltar",
+        index: 41, 
+      },
+    ]
+  },
+  {                                                             //43
+    url: "../images/comp/ne-sstt-4.jpg",
+    infospots: [
+      {
+        position: [-3275.28, 23.26, -3771.54],
+        title: "",
+        index: 42, 
+      },
+      {
+        position: [-1306.49, 380.19, -4803.77],
+        title: "Voltar",
+        index: 41, 
+      },
+    ]
+  },
+  //SALA DE AULA
+  {                                                             //44
+    url: "../images/comp/ne-sala-1.jpg",
+    infospots: [
+      {
+        position: [-2557.26, 985.05, 4171.59],
+        title: "Voltar",
+        index: 24, 
+      },
+    ]
+  },
+  //CÂMARA DO COMANDANTE
+  {                                                             //45
+    url: "../images/comp/ne-cmdt-1.jpg",
+    infospots: [
+      {
+        position: [1805.32, -172.91, -4648.12],
+        title: "",
+        index: 46, 
+      },
+      {
+        position: [4543.63, 665.06, -1963.55],
+        title: "Voltar",
+        index: 25, 
+      },
+    ]
+  },
+  {                                                             //46
+    url: "../images/comp/ne-cmdt-2.jpg",
+    infospots: [
+      {
+        position: [-264.54, 233.32, 4976.97],
+        title: "",
+        index: 45, 
+      },
+    ]
+  },
+  //SALA DE INSTRUÇÃO A NAVEGAÇÃO
+  {                                                             //47
+    url: "../images/comp/ne-nav-1.jpg",
+    infospots: [
+      {
+        position: [4518.07, 784.85, 1990.03],
+        title: "",
+        index: 48, 
+      },
+      {
+        position: [-4973.76, 433.17, -114.33],
+        title: "Voltar",
+        index: 26, 
+      },
+    ]
+  },
+  {                                                             //48
+    url: "../images/comp/ne-nav-2.jpg",
+    infospots: [
+      {
+        position: [-4612.50, 354.73, 1878.20],
+        title: "",
+        index: 49, 
+      },
+      {
+        position: [402.57, 419.53, -4960.27],
+        title: "Voltar",
+        index: 47, 
+      },
+    ]
+  },
+  {                                                             //49
+    url: "../images/comp/ne-nav-3.jpg",
+    infospots: [
+      {
+        position: [2571.69, 895.21, 4183.50],
+        title: "Voltar",
+        index: 47, 
       },
     ]
   },
