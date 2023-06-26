@@ -8,13 +8,7 @@ const panoramasData = [
         position: [-4534.26, 593.08, 2011.69],
         title: "Tour Virtual",
         index: 1,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [2345.66, 336.26, 4393.96],
-        title: "Passadiço",
-        index: 29,
-      },
+      }
     ]
   },
   //CONVOO
