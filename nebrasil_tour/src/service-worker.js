@@ -51,8 +51,7 @@ registerRoute(
 registerRoute(
   // Add in any other file extensions or routing criteria as needed.
   ({ url }) =>  
-          (url.origin === self.location.origin && url.pathname.startsWith('/images') && url.pathname.endsWith('.webp') ||  
-           url.origin === self.location.origin && url.pathname.endsWith('.jpg')), // Customize this strategy as needed, e.g., by changing to CacheFirst.
+          url.origin === self.location.origin && url.pathname.endsWith('.jpg'), // Customize this strategy as needed, e.g., by changing to CacheFirst.
   new StaleWhileRevalidate({
     cacheName: 'images',
     plugins: [
@@ -72,3 +71,25 @@ self.addEventListener('message', (event) => {
 });
 
 // Any other custom service worker logic can go here.
+
+var urlsToCache = [
+  '/',
+  '/styles/styles.css',
+  '/App.js',
+  '/index.js',
+  '%PUBLIC_URL%/images/*.webp',
+  '%PUBLIC_URL%/.png',
+];
+
+self.addEventListener('install', function(event) {
+  // event.waitUntil takes a promise to know how
+  // long the installation takes, and whether it 
+  // succeeded or not.
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        console.log('Opened cache');
+        return cache.addAll(urlsToCache);
+      })
+  );
+});
