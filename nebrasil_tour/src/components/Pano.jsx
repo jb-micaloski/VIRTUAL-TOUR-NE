@@ -2,14 +2,14 @@ import * as PANOLENS from "panolens";
 import * as THREE from "three";
 import React from "react";
 import { Button } from "@mui/material";
-import { useNavigate } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 
 const Pano = () => {
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
     navigate("/tour");
-    window.location.reload();
+    window.location.href = window.location.href + '?reload=' + Math.random();
   };
 
   const viewer = new PANOLENS.Viewer({
@@ -66,9 +66,9 @@ const Pano = () => {
               <tbody>
                 <tr>
                   <td colSpan="3">
-                    <Button variant="contained" onClick={handleButtonClick}>
-                      INICIAR VISITA
-                    </Button>
+                      <Button variant="contained" onClick={handleButtonClick}>
+                        INICIAR VISITA
+                      </Button>
                   </td>
                 </tr>
               </tbody>
