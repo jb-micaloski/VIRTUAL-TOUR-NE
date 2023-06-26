@@ -71,24 +71,3 @@ self.addEventListener('message', (event) => {
 });
 
 // Any other custom service worker logic can go here.
-
-const CACHE_NAME = 'data';
-
-var urlsToCache = [
-  '/',
-  '/styles/styles.css',
-  '%PUBLIC_URL%/*.png',
-];
-
-self.addEventListener('install', function(event) {
-  // event.waitUntil takes a promise to know how
-  // long the installation takes, and whether it 
-  // succeeded or not.
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(function(cache) {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
-      })
-  );
-});
