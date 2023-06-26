@@ -42,7 +42,7 @@ const Pano = () => {
                 <tr>
                   <td>
                     <img
-                      src="../images/brasaoNE.png"
+                      src="../images/brasaoNE.webp"
                       height="80vh"
                       alt="NE Brasil"
                     />
@@ -56,7 +56,7 @@ const Pano = () => {
                   </td>
                   <td>
                     <img
-                      src="../images/brasaoMB.png"
+                      src="../images/brasaoMB.webp"
                       height="80vh"
                       alt="Marinha do Brasil"
                     />
