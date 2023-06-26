@@ -24,7 +24,7 @@ const Tour = () => {
 
     data.infospots.forEach((infospotData) => {
       const position = infospotData.position;
-      const infospot = new PANOLENS.Infospot(550,infospotData.icon);
+      const infospot = new PANOLENS.Infospot(550,'../images/arrow.png');
       infospot.position.set(position[0], position[1], position[2]);
       infospot.addHoverText(infospotData.title);
       infospot.panoramaIndex = infospotData.index; // Adiciona a informação do índice do infospot no panorama
