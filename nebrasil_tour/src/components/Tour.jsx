@@ -41,6 +41,8 @@ const Tour = () => {
 
   panoramas.forEach(panorama => {
     viewer.add(panorama);
+    viewer.addUpdateCallback(function(){
+    });
   });
 
   return (
