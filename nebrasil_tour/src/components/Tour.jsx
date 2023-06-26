@@ -31,7 +31,7 @@ const Tour = () => {
       panorama.add(infospot);
       infospot.addEventListener('click', function() {
         //VOLTAR AO INDICE NORMAL DEPOIS --> TIRAR O '-'x''!!!!!!!
-        viewer.setPanorama(panoramas[infospot.panoramaIndex]); 
+        viewer.setPanorama(panoramas[infospot.panoramaIndex-22]); 
       }
       );
     });

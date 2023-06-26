@@ -1,444 +1,444 @@
 const panoramasData = [
-  //INICIO 
-  {                                                        //0
-    url: "../images/comp/ne-beg-1.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-4534.26, 593.08, 2011.69],
-        title: "Tour Virtual",
-        index: 1,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [2345.66, 336.26, 4393.96],
-        title: "Passadiço",
-        index: 29,
-      },
-    ]
-  },
-  //CONVOO
-  {                                                        //1
-    url: "../images/comp/ne-conv-1.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-4421.00, -281.67, 2297.30],
-        title: "Sala de Estar dos Guardas-Marinha",
-        index: 2,
+  // //INICIO 
+  // {                                                        //0
+  //   url: "../images/comp/ne-beg-1.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4534.26, 593.08, 2011.69],
+  //       title: "Tour Virtual",
+  //       index: 1,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [2345.66, 336.26, 4393.96],
+  //       title: "Passadiço",
+  //       index: 29,
+  //     },
+  //   ]
+  // },
+  // //CONVOO
+  // {                                                        //1
+  //   url: "../images/comp/ne-conv-1.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4421.00, -281.67, 2297.30],
+  //       title: "Sala de Estar dos Guardas-Marinha",
+  //       index: 2,
         
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [4969.53, 467.65, -117.02],
-        title: "VOLTAR",
-        index: 0,
-      }
-    ]
-  },
-  //SALA DE ESTAR DOS GUARDA MARINHA
-  {                                                         //2
-    url: "../images/comp/ne-gm-1.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-4990.44, -65.03, -133.62],
-        title: "Sala de Estar dos Guardas-Marinha",
-        index: 3,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [4932.76, 792.40, -69.63],
-        title: "Convoo do NE Brasil",
-        index: 1,
-      }
-    ]
-  },
-  {                                                          //3
-    url: "../images/comp/ne-gm-2.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-4937.25, -646.49, 329.09],
-        title: "",
-        index: 4,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [-4695.19, -668.81, 1567.48],
-        title: "",
-        index: 5,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [4971.85, -49.09, -500.27],
-        title: "Convoo do NE Brasil",
-        index: 1,
-      }
-    ]
-  },
-  {                                                           //4
-    url: "../images/comp/ne-gm-3.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-4074.28, -1480.28, 2478.77],
-        title: "",
-        index: 5,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [-4642.69, -86.55, -1828.91],
-        title: "",
-        index: 6,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [3976.52, -596.33, 2960.82],
-        title: "",
-        index: 3,
-      }
-    ]
-  },
-  {                                                            //5
-    url: "../images/comp/ne-gm-4.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-4118.23, 206.05, -2811.45],
-        title: "",
-        index: 6,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [-4900.01, -428.24, -855.47],
-        title: "",
-        index: 7,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [-4853.89, -346.92, 1124.48],
-        title: "",
-        index: 8,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [-502.12, 568.16, -4937.46],
-        title: "",
-        index: 4,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [4542.90, -673.13, -1962.78],
-        title: "",
-        index: 3,
-      }, 
-    ]
-  },
-  {                                                            //6
-    url: "../images/comp/ne-gm-5.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-606.23, -614.82, 4917.16],
-        title: "",
-        index: 7,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [3293.48, -1335.28, 3505.85],
-        title: "",
-        index: 8,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [1549.95, -62.97, -4750.77],
-        title: "",
-        index: 3,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [3729.77, -1707.50, -2844.90],
-        title: "",
-        index: 5,
-      },
-    ]
-  },
-  {                                                            //7
-    url: "../images/comp/ne-gm-6.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [4633.69, 761.16, 1697.23],
-        title: "Auditório",
-        index: 9,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [4937.50, -708.49, 184.38],
-        title: "Corredor",
-        index: 14,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [1549.95, -62.97, -4750.77],
-        title: "",
-        index: 3,
-      },
-    ]
-  },
-  {                                                            //8
-    url: "../images/comp/ne-gm-7.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [1549.95, -62.97, -4750.77],
-        title: "",
-        index: 3,
-      },
-    ]
-  },
-  //AUDITÓRIO
-  {                                                             //9
-    url: "../images/comp/ne-aud-1.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [260.53, -64.62, 4983.81],
-        title: "",
-        index: 10,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [-1416.55, -4701.80, -917.53],
-        title: "Sala de Estar dos Guardas-Marinha",
-        index: 7,
-      },
-    ]
-  },
-  {                                                             //10
-    url: "../images/comp/ne-aud-2.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [260.53, -64.62, 4983.81],
-        title: "",
-        index: 9,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [-4956.07, -354.98, 538.02],
-        title: "",
-        index: 11,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [-4465.07, -49.26, -2230.90],
-        title: "",
-        index: 12,
-      },
-    ]
-  },
-  {                                                             //11
-    url: "../images/comp/ne-aud-3.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-3731.65, -131.20, -3317.81],
-        title: "",
-        index: 12,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [-4512.30, -215.20, -2123.86],
-        title: "",
-        index: 13,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [4795.25, 110.73, 1379.15],
-        title: "",
-        index: 10,
-      },
-    ]
-  },
-  {                                                             //12
-    url: "../images/comp/ne-aud-4.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-4565.65, -87.60, 2029.49],
-        title: "",
-        index: 10,
-      },
-    ]
-  },
-  {                                                             //13
-    url: "../images/comp/ne-aud-5.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [4993.64, 85.41, -57.40],
-        title: "Saída do Auditório",
-        index: 9,
-      },
-    ]
-  },
-  //CORREDOR
-  {                                                             //14
-    url: "../images/comp/ne-crd-1.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [4985.46, -233.50, 102.45],
-        title: "Corredor",
-        index: 15,
-      },
-    ]
-  },
-  {                                                             //15
-    url: "../images/comp/ne-crd-2.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-4979.42, -54.73, 351.72],
-        title: "Camarote",
-        index: 16,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [-525.72, 1862.15, -4606.43],
-        title: "Sala de Estar dos Guarda-Marinha",
-        index: 7,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [4981.80, 352.77, 82.72],
-        title: "Centro Cirúrgico",
-        index: 38,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [4920.59, 399.49, -747.23],
-        title: "Atendimento Odontológico",
-        index: 37,
-      },
-    ]
-  },
-  {                                                             //16
-    url: "../images/comp/ne-crd-4.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-4078.64, 2.07, -2887.11],
-        title: "Praça D'Armas",
-        index: 17,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [-4946.49, 117.46, 658.11],
-        title: "Camarote",
-        index: 31,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [2754.15, -133.36, 4158.84],
-        title: "Voltar",
-        index: 15,
-      },
-    ]
-  },
-  {                                                             //17
-    url: "../images/comp/ne-crd-3.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-4949.47, 146.69, 631.97],
-        title: "Praça D'Armas",
-        index: 18,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [4952.01, 321.04, -572.18],
-        title: "Voltar",
-        index: 16,
-      },
-    ]
-  },
-  {                                                             //18
-    url: "../images/comp/ne-crd-5.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-3667.97, 904.50, 3268.33],
-        title: "Praça D'Armas",
-        index: 19,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [4345.92, 2451.12, -146.08],
-        title: "Voltar",
-        index: 17,
-      },
-    ]
-  },
-  {                                                             //19
-    url: "../images/comp/ne-crd-6.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-4798.48, 49.95, -1376.29],
-        title: "Praça D'Armas",
-        index: 20,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [4437.84, 404.22, 2251.60],
-        title: "Voltar",
-        index: 18,
-      },
-    ]
-  },
-  {                                                             //20
-    url: "../images/comp/ne-crd-7.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [-4943.14, 499.31, -529.44],
-        title: "Praça D'Armas",
-        index: 21,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [4963.13, -251.23, 515.09],
-        title: "Voltar",
-        index: 19,
-      },
-    ]
-  },
-  {                                                             //21
-    url: "../images/comp/ne-crd-8.jpg",
-    infospots: [
-      {
-        icon:'../images/arrow.png',
-        position: [315.05, -1788.17, 4649.09],
-        title: "SSTT",
-        index: 22,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [-4741.02, 1567.42, 114.86],
-        title: "Praça D'Armas",
-        index: 32,
-      },
-      {
-        icon:'../images/arrow.png',
-        position: [-271.11, 456.09, -4962.83],
-        title: "Voltar",
-        index: 20,
-      },
-    ]
-  },
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4969.53, 467.65, -117.02],
+  //       title: "VOLTAR",
+  //       index: 0,
+  //     }
+  //   ]
+  // },
+  // //SALA DE ESTAR DOS GUARDA MARINHA
+  // {                                                         //2
+  //   url: "../images/comp/ne-gm-1.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4990.44, -65.03, -133.62],
+  //       title: "Sala de Estar dos Guardas-Marinha",
+  //       index: 3,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4932.76, 792.40, -69.63],
+  //       title: "Convoo do NE Brasil",
+  //       index: 1,
+  //     }
+  //   ]
+  // },
+  // {                                                          //3
+  //   url: "../images/comp/ne-gm-2.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4937.25, -646.49, 329.09],
+  //       title: "",
+  //       index: 4,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4695.19, -668.81, 1567.48],
+  //       title: "",
+  //       index: 5,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4971.85, -49.09, -500.27],
+  //       title: "Convoo do NE Brasil",
+  //       index: 1,
+  //     }
+  //   ]
+  // },
+  // {                                                           //4
+  //   url: "../images/comp/ne-gm-3.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4074.28, -1480.28, 2478.77],
+  //       title: "",
+  //       index: 5,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4642.69, -86.55, -1828.91],
+  //       title: "",
+  //       index: 6,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [3976.52, -596.33, 2960.82],
+  //       title: "",
+  //       index: 3,
+  //     }
+  //   ]
+  // },
+  // {                                                            //5
+  //   url: "../images/comp/ne-gm-4.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4118.23, 206.05, -2811.45],
+  //       title: "",
+  //       index: 6,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4900.01, -428.24, -855.47],
+  //       title: "",
+  //       index: 7,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4853.89, -346.92, 1124.48],
+  //       title: "",
+  //       index: 8,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-502.12, 568.16, -4937.46],
+  //       title: "",
+  //       index: 4,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4542.90, -673.13, -1962.78],
+  //       title: "",
+  //       index: 3,
+  //     }, 
+  //   ]
+  // },
+  // {                                                            //6
+  //   url: "../images/comp/ne-gm-5.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-606.23, -614.82, 4917.16],
+  //       title: "",
+  //       index: 7,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [3293.48, -1335.28, 3505.85],
+  //       title: "",
+  //       index: 8,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [1549.95, -62.97, -4750.77],
+  //       title: "",
+  //       index: 3,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [3729.77, -1707.50, -2844.90],
+  //       title: "",
+  //       index: 5,
+  //     },
+  //   ]
+  // },
+  // {                                                            //7
+  //   url: "../images/comp/ne-gm-6.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4633.69, 761.16, 1697.23],
+  //       title: "Auditório",
+  //       index: 9,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4937.50, -708.49, 184.38],
+  //       title: "Corredor",
+  //       index: 14,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [1549.95, -62.97, -4750.77],
+  //       title: "",
+  //       index: 3,
+  //     },
+  //   ]
+  // },
+  // {                                                            //8
+  //   url: "../images/comp/ne-gm-7.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [1549.95, -62.97, -4750.77],
+  //       title: "",
+  //       index: 3,
+  //     },
+  //   ]
+  // },
+  // //AUDITÓRIO
+  // {                                                             //9
+  //   url: "../images/comp/ne-aud-1.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [260.53, -64.62, 4983.81],
+  //       title: "",
+  //       index: 10,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-1416.55, -4701.80, -917.53],
+  //       title: "Sala de Estar dos Guardas-Marinha",
+  //       index: 7,
+  //     },
+  //   ]
+  // },
+  // {                                                             //10
+  //   url: "../images/comp/ne-aud-2.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [260.53, -64.62, 4983.81],
+  //       title: "",
+  //       index: 9,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4956.07, -354.98, 538.02],
+  //       title: "",
+  //       index: 11,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4465.07, -49.26, -2230.90],
+  //       title: "",
+  //       index: 12,
+  //     },
+  //   ]
+  // },
+  // {                                                             //11
+  //   url: "../images/comp/ne-aud-3.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-3731.65, -131.20, -3317.81],
+  //       title: "",
+  //       index: 12,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4512.30, -215.20, -2123.86],
+  //       title: "",
+  //       index: 13,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4795.25, 110.73, 1379.15],
+  //       title: "",
+  //       index: 10,
+  //     },
+  //   ]
+  // },
+  // {                                                             //12
+  //   url: "../images/comp/ne-aud-4.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4565.65, -87.60, 2029.49],
+  //       title: "",
+  //       index: 10,
+  //     },
+  //   ]
+  // },
+  // {                                                             //13
+  //   url: "../images/comp/ne-aud-5.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4993.64, 85.41, -57.40],
+  //       title: "Saída do Auditório",
+  //       index: 9,
+  //     },
+  //   ]
+  // },
+  // //CORREDOR
+  // {                                                             //14
+  //   url: "../images/comp/ne-crd-1.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4985.46, -233.50, 102.45],
+  //       title: "Corredor",
+  //       index: 15,
+  //     },
+  //   ]
+  // },
+  // {                                                             //15
+  //   url: "../images/comp/ne-crd-2.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4979.42, -54.73, 351.72],
+  //       title: "Camarote",
+  //       index: 16,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-525.72, 1862.15, -4606.43],
+  //       title: "Sala de Estar dos Guarda-Marinha",
+  //       index: 7,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4981.80, 352.77, 82.72],
+  //       title: "Centro Cirúrgico",
+  //       index: 38,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4920.59, 399.49, -747.23],
+  //       title: "Atendimento Odontológico",
+  //       index: 37,
+  //     },
+  //   ]
+  // },
+  // {                                                             //16
+  //   url: "../images/comp/ne-crd-4.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4078.64, 2.07, -2887.11],
+  //       title: "Praça D'Armas",
+  //       index: 17,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4946.49, 117.46, 658.11],
+  //       title: "Camarote",
+  //       index: 31,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [2754.15, -133.36, 4158.84],
+  //       title: "Voltar",
+  //       index: 15,
+  //     },
+  //   ]
+  // },
+  // {                                                             //17
+  //   url: "../images/comp/ne-crd-3.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4949.47, 146.69, 631.97],
+  //       title: "Praça D'Armas",
+  //       index: 18,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4952.01, 321.04, -572.18],
+  //       title: "Voltar",
+  //       index: 16,
+  //     },
+  //   ]
+  // },
+  // {                                                             //18
+  //   url: "../images/comp/ne-crd-5.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-3667.97, 904.50, 3268.33],
+  //       title: "Praça D'Armas",
+  //       index: 19,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4345.92, 2451.12, -146.08],
+  //       title: "Voltar",
+  //       index: 17,
+  //     },
+  //   ]
+  // },
+  // {                                                             //19
+  //   url: "../images/comp/ne-crd-6.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4798.48, 49.95, -1376.29],
+  //       title: "Praça D'Armas",
+  //       index: 20,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4437.84, 404.22, 2251.60],
+  //       title: "Voltar",
+  //       index: 18,
+  //     },
+  //   ]
+  // },
+  // {                                                             //20
+  //   url: "../images/comp/ne-crd-7.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4943.14, 499.31, -529.44],
+  //       title: "Praça D'Armas",
+  //       index: 21,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [4963.13, -251.23, 515.09],
+  //       title: "Voltar",
+  //       index: 19,
+  //     },
+  //   ]
+  // },
+  // {                                                             //21
+  //   url: "../images/comp/ne-crd-8.jpg",
+  //   infospots: [
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [315.05, -1788.17, 4649.09],
+  //       title: "SSTT",
+  //       index: 22,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-4741.02, 1567.42, 114.86],
+  //       title: "Praça D'Armas",
+  //       index: 32,
+  //     },
+  //     {
+  //       icon:'../images/arrow.png',
+  //       position: [-271.11, 456.09, -4962.83],
+  //       title: "Voltar",
+  //       index: 20,
+  //     },
+  //   ]
+  // },
   {                                                             //22
     url: "../images/comp/ne-crd-9.jpg",
     infospots: [
@@ -876,7 +876,7 @@ const panoramasData = [
       },
       {
         icon:'../images/arrow.png',
-        position: [-4636.82, 1613.13, 920.26],
+        position: [-3995.76, 1564.17, -2553.26],
         title: "Cubículo",
         index: 42, 
       },
@@ -893,7 +893,7 @@ const panoramasData = [
     infospots: [
       {
         icon:'../images/arrow.png',
-        position: [-3767.83, 2998.75, -1325.10],
+        position: [3989.15, 2989.19, -311.29],
         title: "Cubículo",
         index: 42, 
       },
