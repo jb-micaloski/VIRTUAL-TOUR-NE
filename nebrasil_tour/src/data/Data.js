@@ -11,12 +11,6 @@ const panoramasData = [
       },
       {
         icon:'../images/arrow.webp',
-        position: [0, 0, 0],
-        title: "",
-        index: 0,
-      },
-      {
-        icon:'../images/arrow.webp',
         position: [-2429.06, -4340.71, -457.40],
         title: "Passadiço",
         index: 29,
