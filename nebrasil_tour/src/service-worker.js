@@ -77,10 +77,7 @@ const CACHE_NAME = 'data';
 var urlsToCache = [
   '/',
   '/styles/styles.css',
-  '/App.js',
-  '/index.js',
-  '%PUBLIC_URL%/images/*.webp',
-  '%PUBLIC_URL%/.png',
+  '%PUBLIC_URL%/*.png',
 ];
 
 self.addEventListener('install', function(event) {
