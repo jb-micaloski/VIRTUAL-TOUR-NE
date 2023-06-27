@@ -1,7 +1,7 @@
 const panoramasData = [
   //INICIO 
   {                                                        //0
-    url: "../images/comp/ne-beg-1.jpg",
+    url: "../images/ne-beg-1.webp",
     infospots: [
       {
         icon:'../images/arrow.png',
