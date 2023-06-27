@@ -72,3 +72,13 @@ self.addEventListener('message', (event) => {
 });
 
 // Any other custom service worker logic can go here.
+
+const urlsToCache = ["/", "/images/comp/*.jpg", "/images/*.png", "/images/*.webp"];
+self.addEventListener("install", event => {
+   event.waitUntil(
+      caches.open("images")
+      .then(cache => {
+         return cache.addAll(urlsToCache);
+      });
+   );
+});
