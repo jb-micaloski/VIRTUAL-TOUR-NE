@@ -59,7 +59,7 @@ registerRoute(
     plugins: [
       // Ensure that once this runtime cache reaches a maximum size the
       // least-recently used images are removed.
-      new ExpirationPlugin({ maxEntries: 50 }),
+      new ExpirationPlugin({ maxEntries: 65 }),
     ],
   })
 );
@@ -134,6 +134,15 @@ self.addEventListener("install", event => {
      caches.open("images")
      .then(cache => {
         return cache.addAll(urlsToCache);
+     })
+  );
+});
+
+self.addEventListener("load", event => {
+  event.waitUntil(
+     caches.open("images")
+     .then(cache => {
+        return cache.add("ne-beg-1.webp");
      })
   );
 });
