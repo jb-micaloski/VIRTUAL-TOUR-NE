@@ -75,10 +75,10 @@ self.addEventListener('message', (event) => {
 
 const urlsToCache = ["/", "/images/comp/*.jpg", "/images/*.png", "/images/*.webp"];
 self.addEventListener("install", event => {
-   event.waitUntil(
-      caches.open("images")
-      .then(cache => {
-         return cache.addAll(urlsToCache);
-      });
-   );
+  event.waitUntil(
+     caches.open("images")
+     .then(cache => {
+        return cache.addAll(urlsToCache);
+     })
+  );
 });
