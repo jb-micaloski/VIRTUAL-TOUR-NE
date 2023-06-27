@@ -5,6 +5,7 @@ import { Button } from "@mui/material";
 import { useNavigate} from "react-router-dom";
 
 const Pano = () => {
+
   const navigate = useNavigate();
 
   const handleButtonClick = () => {
