@@ -6,28 +6,29 @@ const Pano = lazy(() => import('./components/Pano'));
 const Tour = lazy(() => import('./components/Tour'));
 
 function App() {
+
   return (
     <div className="App">
-      <Router>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <Suspense fallback={<div>Loading...</div>}>
-                <Pano />
-              </Suspense>
-            }
-          />
-          <Route
-            path="/tour"
-            element={
-              <Suspense fallback={<div>Loading...</div>}>
-                <Tour />
-              </Suspense>
-            }
-          />
-        </Routes>
-      </Router>
+        <Router>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <Suspense fallback={<div>Loading...</div>}>
+                  <Pano />
+                </Suspense>
+              }
+            />
+            <Route
+              path="/tour"
+              element={
+                <Suspense fallback={<div>Loading...</div>}>
+                  <Tour />
+                </Suspense>
+              }
+            />
+          </Routes>
+        </Router>
     </div>
   );
 }
