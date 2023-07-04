@@ -1,9 +1,9 @@
 import React, { Fragment, lazy, Suspense, useEffect, useState} from 'react';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import './styles/styles.css';
 
-const Pano = lazy(() => import('./components/Pano'));
-const Tour = lazy(() => import('./components/Tour'));
+const Pano = lazy(() => import('./components/Pano.jsx'));
+const Tour = lazy(() => import('./components/Tour.jsx'));
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
