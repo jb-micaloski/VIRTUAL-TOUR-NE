@@ -47,7 +47,7 @@ const Tour = () => {
 
   return (
     <>
-    <div id="tour"/>
+    <model id="tour"/>
     </>
   );
 };

@@ -36,7 +36,7 @@ const Pano = () => {
     <>
       <main>
         <section className="content">
-          <section id="home" className="content"></section>
+          <model id="home" className="content"></model>
           <section className="title">
             <table>
               <thead>
