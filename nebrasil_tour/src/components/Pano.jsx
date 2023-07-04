@@ -10,7 +10,7 @@ const Pano = () => {
 
   const handleButtonClick = () => {
     navigate("/tour");
-    location.reload();
+    window.location.reload();
   };
 
   const viewer = new PANOLENS.Viewer({

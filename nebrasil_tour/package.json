@@ -1,6 +1,6 @@
 {
   "name": "tour",
-  "version": "0.1.0",
+  "version": "1.2.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -30,8 +30,8 @@
     "workbox-streams": "^6.6.0"
   },
   "scripts": {
-    "start": "webpack serve --mode development --open --hot",
-    "build": "webpack --mode production",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -54,14 +54,5 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.22.6",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-loader": "^9.1.2",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "html-webpack-plugin": "^5.5.3",
-    "webpack": "^5.88.1",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
   }
 }
