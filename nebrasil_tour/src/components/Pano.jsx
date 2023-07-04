@@ -26,7 +26,7 @@ const Pano = () => {
   });
 
   const StartPosition = new THREE.Vector3(-4711.94, 93.13, 1647.79);
-  const panorama = new PANOLENS.ImagePanorama("../images/comp/ne-beg-1.jpg");
+  const panorama = new PANOLENS.ImagePanorama("../public/images/comp/ne-beg-1.jpg");
   panorama.addEventListener("enter-fade-start", function () {
     viewer.tweenControlCenter(StartPosition, 0);
   });
