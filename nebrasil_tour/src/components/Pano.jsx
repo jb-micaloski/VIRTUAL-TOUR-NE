@@ -1,6 +1,6 @@
 import * as PANOLENS from "panolens";
 import * as THREE from "three";
-import React from "react";
+import React, {useEffect} from "react";
 import { Button } from "@mui/material";
 import { useNavigate} from "react-router-dom";
 
@@ -8,10 +8,14 @@ const Pano = () => {
 
   const navigate = useNavigate();
 
-  const handleButtonClick = () => {
-    navigate("/tour");
-    window.location.reload();
-  };
+  useEffect(()=> {
+    const handleReload = () => {
+      navigate("/home");
+      window.location.reload();
+    };
+    
+    handleReload()
+  },[navigate]);
 
   const viewer = new PANOLENS.Viewer({
     container: document.querySelector("#home.content"),
@@ -67,7 +71,7 @@ const Pano = () => {
               <tbody>
                 <tr>
                   <td colSpan="3">
-                      <Button variant="contained" onClick={handleButtonClick}>
+                      <Button variant="contained">
                         INICIAR VISITA
                       </Button>
                   </td>

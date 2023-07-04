@@ -4,6 +4,8 @@ import './styles/styles.css';
 
 const Pano = lazy(() => import('./components/Pano.jsx'));
 const Tour = lazy(() => import('./components/Tour.jsx'));
+const Home = lazy(() => import('./components/Home.jsx'));
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -42,6 +44,14 @@ function App() {
                 element={
                   <Suspense fallback={<div>Loading...</div>}>
                     <Pano/>
+                  </Suspense>
+                }
+              />
+              <Route
+                path="/home"
+                element={
+                  <Suspense fallback={<div>Loading...</div>}>
+                    <Home/>
                   </Suspense>
                 }
               />
