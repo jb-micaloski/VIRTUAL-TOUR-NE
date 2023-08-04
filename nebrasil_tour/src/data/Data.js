@@ -23,7 +23,7 @@ const panoramasData = [
     infospots: [
       {
         icon:'../images/arrow.png',
-        position: [-4421.00, -281.67, 2297.30],
+        position: [-4971.83, -91.69, 468.75],
         title: "Sala de Estar dos Guardas-Marinha",
         index: 2,
         
@@ -974,7 +974,7 @@ const panoramasData = [
     infospots: [
       {
         icon:'../images/arrow.png',
-        position: [-264.54, 233.32, 4976.97],
+        position: [3110.46, -818.87, -3817.70],
         title: "",
         index: 45, 
       },
